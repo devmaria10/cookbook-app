@@ -1,7 +1,7 @@
 class Recipe < ApplicationRecord
   def friendly_prep_time
-    input: 125
-    output: "2 hours, 5 minutes"
+    input 125
+    output "2 hours, 5 minutes"
 
   hours = prep_time / 60
   minutes = prep_time % 60
